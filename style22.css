@@ -1,0 +1,236 @@
+.{
+margin: 0;
+padding: 0;
+}
+body{
+background-color: #005784;
+font-size: 19px;
+}
+.c{
+color: orangered;
+font-size: 55px;
+}
+.bttn{
+font-weight: bold;
+font-size: 22px;
+color: white;
+}
+.bttn a{
+color: white;
+text-decoration: none;
+}
+.bttn a:hover{
+color: orangered;
+}
+.pt{
+font-size: 20px;
+color: white;
+padding-left: 20px;
+}
+.pt span{
+color: orangered;
+}
+.bb{
+width: 170px;
+height: 45px;
+padding-left: 7px;
+border-radius: 7px;
+margin-left: 69px;
+background: orangered;
+font-size: 20px;
+ cursor: pointer;
+}
+.bb a{
+color: white;
+text-decoration: none;
+}
+.bb:hover{
+background: blue;
+}
+.tb{
+align-items: center;
+text-align: center;
+margin-left: 175px;
+margin-top: 8px;
+    width: 300px;
+    height: 335px;
+    background: green;
+    position: absolute;
+border-radius: 7px;
+}
+.tb input{
+width: 300px;
+height: 34px;
+border-radius: 5px;
+border-top: none;
+border-right: none;
+border-left: none;
+background: transparent;
+border-color: orangered;
+color: white;
+font-size: 19px;
+font-color: white;
+}
+.tb h2{
+margin-top: 0px;
+width: 300px;
+height: 60px;
+color: white;
+background: red;
+border-radius: 0px;
+font-size: 29px;
+}
+.btnn{
+width: 250px;
+height: 46px;
+background: orangered;
+cursor: pointer;
+margin-top: 19px;
+color: white;
+font-size: 22px;
+border-radius: 7px;
+}
+.btnn:hover{
+background: blue;
+}
+.link{
+color: white;
+font-size: 19px;
+}
+.link a{
+color: orangered;
+font-weight: bold;
+}
+.lw{
+font-size: 18px;
+font-weight: bold;
+color: orangered;
+}
+.bt2{
+padding-left: 30px;
+color: white;
+}
+.bt2 h2{
+padding-left: 30px;
+color: orangered;
+font-size: 55px;
+}
+
+.btn-1{
+padding-left: 30px;
+width: 200px;
+height: 45px;
+border-radius: 7px;
+background: orangered;
+color: white;
+font-size: 23px;
+}
+.btn-1:hover{
+background: blue;
+}
+.img-box{
+width: 400px;
+height:300px;
+padding-left:115px;
+position: relative;
+}
+.bt3{
+padding-left: 30px;
+color: white;
+font-size: 19px;
+}
+.bt3 h2{
+color: orangered;
+font-size: 34px;
+}
+.bt3 span{
+color: orangered;
+}
+.bt3 h2 span{
+color: white;
+}
+.tbb{
+border-radius: 4px;
+margin-left: 175px;
+margin-top: 8px;
+width: 360px;
+height: 420px;
+background: white;
+position: absolute;
+}
+.tbb h1{
+width: 360px;
+height: 60px;
+background: blue;
+margin-top: 0px;
+text-align: center;
+font-size: 45px;
+color: white;
+}
+.tbb label{
+padding-left: 30px;
+font-size: 20px;
+}
+.tbb input{
+width: 270px;
+height: 32px;
+margin-left: 30px;
+}
+.bg{
+margin-left: 50px;
+height: 35px;
+background: blue;
+border-radius: 4px;
+width: 89px;
+cursor: pointer;
+}
+.bg:hover{
+background: orangered;
+}
+.bg a{
+font-size: 25px;
+color: white;
+text-decoration: none;
+}
+.vv{
+color: white;
+font-size: 14px;
+}
+.img-box2{
+padding-left: 0px;
+width: 300px;
+height:200px;
+}
+
+.hidden { display: none; 
+}
+header, footer {
+background-color: #093170;
+color: white;
+padding: 20px;
+text-align: center;
+}
+.login-box {
+width: 300px;
+margin: 100px auto;
+background-color: white;
+padding: 30px;
+box-shadow: 0 0 10px rgba(0,0,0,0.2);
+border-radius: 10px;
+}
+.login-box h2 {
+text-align: center;
+}
+input[type="text"], input[type="password"] {
+width: 100%;
+padding: 10px;
+margin: 8px 0;
+}
+button {
+width: 100%;
+padding: 10px;
+background-color: #093170;
+color: white;
+border: none;
+font-weight: bold;
+}

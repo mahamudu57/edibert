@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" type="image/x-icon" href="op.ico">
+	<title>aAZAMtv </title>
+</head>
+<body>
+<style>
+    .hidden { display: none; 
+
+    }
+	 
+	.login-box {
+      width: 300px;
+      margin: 100px auto;
+      background-color: white;
+      padding: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+border-radius: 10px;
+    }
+    .login-box h2 {
+      text-align: center;
+    }
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #093170;
+      color: white;
+      border: none;
+      font-weight: bold;
+    }
+</style>
+<center>
+	<div id="loginPage" class="login-box">
+		<h2>Login</h2>
+		<input type="text" id="username" placeholder="Username" required>
+		<input type="password" id="password" placeholder="Password" required>
+		<button onclick="login()">Login</button>
+	  </div>
+	  
+	  <!-- MAIN WEBSITE (HIDDEN UNTIL LOGIN) -->
+	  <div id="website" class="hidden">
+<table border="0" width="100%"height="70" cellpadding="3">
+	<td colspan="6"> <img src="dd.png" width="50%" height="300px"><img src="dd.png" width="50%" height="300px">
+	
+	</td>
+	<tr>
+		<td><a href="index.html"> Home</a></td>
+		<td> <a href="about.html"> About Azam</a></td>
+		<td> <a href="contact.html"> Azam Contacts </a></td>
+		<td> <a href="service.html"> Azam Services</a></td>
+		<td> <a href="help.html"> Get Help</a></td>
+		<td> <a href="comments.html">Customer comment</a></td>
+		
+	</tr>
+		<tr>
+			<td colspan="6">
+				<img src="dod.png" width="100%"height="250">
+			</td></tr>
+		
+	</tr>
+	<TD colspan="3">  <img src="images.jpg" width="150"height="70"><P><H1>IMAGE OF CEO<br> OF AZAM CAMPONY LTD</H1></P></TD>
+	<td colspan="2">
+		<h1>AZAM<Font color="BLUE">tv</Font> BURUDANI <BR>KWA WOTEEEE!!!</h1>
+		<ol type="1">
+			<font color="blue">
+			<li> SPORTS</li>
+			<li> MOVIES</li>
+			<li>SERIES</li>
+			<li>MUSIC</li>
+			</font>
+		</ol>
+	</td>
+	<td colspan="2">
+		
+		<H1> VIEW MORE</H1>
+				<ol type="square">
+				
+					<li><a href="#"> <font color ="red">AZAM FOOD PRODUCT</font></a></li>
+					<li><a href="#"> <font color ="red">AZAM PESA</font></a></li>
+					<li><a href="#"> <font color ="red"> AZAM MAX</font></a></li>
+					<li><a href="#"> <font color ="red">AZAM APP</font></a></li>
+					<li><a href="#"> <font color ="red">AZAM DRINK</font></a></li>
+					
+				</ol>
+	</td>
+		</tr>
+		
+		</tr>
+</table><p>
+<img src="pop.png" width="100%"height="250">
+</p>
+      </div>
+<script>
+	function login() {
+	  const user = document.getElementById("username").value;
+	  const pass = document.getElementById("password").value;
+  
+	  // Simple fixed login for demo
+	  if (user === "" && pass === "") {
+		document.getElementById("loginPage").style.display = "none";
+		document.getElementById("website").classList.remove("hidden");
+	  } else {
+		alert("Invalid username or password!");
+	  }
+	}
+  </script>
+</center>
+<body>
+
+</body>
+</html>
