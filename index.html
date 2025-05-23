@@ -37,15 +37,6 @@ border-radius: 10px;
     }
 </style>
 <center>
-	<div id="loginPage" class="login-box">
-		<h2>Login</h2>
-		<input type="text" id="username" placeholder="Username" required>
-		<input type="password" id="password" placeholder="Password" required>
-		<button onclick="login()">Login</button>
-	  </div>
-	  
-	  <!-- MAIN WEBSITE (HIDDEN UNTIL LOGIN) -->
-	  <div id="website" class="hidden">
 <table border="0" width="100%"height="70" cellpadding="3">
 	<td colspan="6"> <img src="dd.png" width="50%" height="300px"><img src="dd.png" width="50%" height="300px">
 	
@@ -97,20 +88,6 @@ border-radius: 10px;
 <img src="pop.png" width="100%"height="250">
 </p>
       </div>
-<script>
-	function login() {
-	  const user = document.getElementById("username").value;
-	  const pass = document.getElementById("password").value;
-  
-	  // Simple fixed login for demo
-	  if (user === "" && pass === "") {
-		document.getElementById("loginPage").style.display = "none";
-		document.getElementById("website").classList.remove("hidden");
-	  } else {
-		alert("Invalid username or password!");
-	  }
-	}
-  </script>
 </center>
 <body>
 
